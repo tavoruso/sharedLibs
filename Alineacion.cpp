@@ -1,21 +1,5 @@
 #include "Alineacion.h"
 
-Alineacion::Alineacion()
-{
-	iptrAlineacion=0;
-	iptrAlineacion = new int[36];
-	iContadorFichas=0;
-}
-
-Alineacion::~Alineacion()
-{
-	if(iptrAlineacion != 0)
-	{
-		delete [] iptrAlineacion;
-		iptrAlineacion = 0;
-	}
-}
-
 int *Alineacion::buscarAlineacion(int iPosicionInicial, int iFicha,int   **iMatrizOriginal)
 {
 	iPosInicial=iPosicionInicial;
