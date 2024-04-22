@@ -7,6 +7,15 @@ Alineacion::Alineacion()
 	iContadorFichas=0;
 }
 
+
+Alineacion::AndThisIsAnotherFunction()
+{
+	iptrAlineacion=0;
+	iptrAlineacion = new int[36];
+	iContadorFichas=0;
+}
+
+
 Alineacion::~Alineacion()
 {
 	if(iptrAlineacion != 0)
